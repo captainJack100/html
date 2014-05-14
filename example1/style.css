@@ -1,3 +1,13 @@
+#top {
+	background-color: #ccc;
+	padding: 20px;
+}
+
+.intro {
+	color: red;
+	font-weight: bold;
+}
+
 p {
 	color: blue;
 	font-size: 24pt;
