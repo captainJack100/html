@@ -1,6 +1,11 @@
 p {
 	color: blue;
 	font-size: 24pt;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 body {
@@ -10,4 +15,12 @@ body {
 a {
 	color: red;
 
+}
+
+h2 {
+	font-size: 1.5em;
+	background-color: #ccc;
+	border-style: dashed;
+	margin: 20px;
+	padding: 40px;
 }
