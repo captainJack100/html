@@ -4,7 +4,7 @@
 	<head>
 		<title> Some title </title>
 	</head>
-	<body>
+	<body onloa="form1.reset();">
 		<h1> Heading one </h1>
 		<p>
 			Paragraph One. Twodasdf.
@@ -48,7 +48,8 @@
 			</tr>
 		</table>
 
-		<form action="tmp.php" method="get">
+		<!-- Clear text area on reload -->
+		<form id="form1" action="tmp.php" method="get">
 			<p><input type="text" name="name"></p>
 			<p><input type="submit"></p>
 		</form>
